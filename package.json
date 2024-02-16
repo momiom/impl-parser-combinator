@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "start": "npm run build ; node dist/playground.js"
   },
   "jest": {
     "preset": "ts-jest",
